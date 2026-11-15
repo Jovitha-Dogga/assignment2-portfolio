@@ -1,0 +1,23 @@
+<%- include('partials/header') %>
+
+      <form class="p-4 border rounded shadow-sm bg-light">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+        </div>
+        <div class="mb-3">
+          <label for="cell" class="form-label">Cell Number</label>
+          <input type="tel" class="form-control" id="cell" placeholder="(123) 456-7890" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Comments</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Your message here..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Submit</button>
+      </form>
+
+<%- include('partials/footer') %>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %> | Jovitha's Portfolio</title>
+
+  <!-- Bootstrap 5 (local node_modules) -->
+  <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+  <!-- Font Awesome (local node_modules) -->
+  <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css">
+  <!-- Our own stylesheet -->
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="/">Jovitha's Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <% if (title === 'Home') { %>
+              <a class="nav-link active" href="/"><i class="fas fa-home fa-lg me-1"></i> Home</a>
+            <% } else { %>
+              <a class="nav-link" href="/"><i class="fas fa-home fa-lg me-1"></i> Home</a>
+            <% } %>
+          </li>
+          <li class="nav-item">
+            <% if (title === 'About Me') { %>
+              <a class="nav-link active" href="/about"><i class="fas fa-user fa-lg me-1"></i> About Me</a>
+            <% } else { %>
+              <a class="nav-link" href="/about"><i class="fas fa-user fa-lg me-1"></i> About Me</a>
+            <% } %>
+          </li>
+          <li class="nav-item">
+            <% if (title === 'Projects') { %>
+              <a class="nav-link active" href="/projects"><i class="fas fa-briefcase fa-lg me-1"></i> Projects</a>
+            <% } else { %>
+              <a class="nav-link" href="/projects"><i class="fas fa-briefcase fa-lg me-1"></i> Projects</a>
+            <% } %>
+          </li>
+          <li class="nav-item">
+            <% if (title === 'Contact Me') { %>
+              <a class="nav-link active" href="/contact"><i class="fas fa-envelope fa-lg me-1"></i> Contact Me</a>
+            <% } else { %>
+              <a class="nav-link" href="/contact"><i class="fas fa-envelope fa-lg me-1"></i> Contact Me</a>
+            <% } %>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
