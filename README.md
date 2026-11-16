@@ -11,7 +11,7 @@
 
 - **Live Portfolio:** https://assignment2-portfolio-8oqh.onrender.com
 - **GitHub Repository:** https://github.com/Jovitha-Dogga/assignment2-portfolio
-- **Video Presentation:** [ADD_YOUR_VIDEO_LINK_HERE]
+- **Video Presentation:** (https://drive.google.com/file/d/10L9gkGHNtbdzwcYSHYOk9FZtfaUil7RQ/view?usp=sharing)
 
 ## Project Overview
 
@@ -285,8 +285,8 @@ The deployment process was completed using Render's official Node.js deployment 
 - [x] Public GitHub repository created.
 - [x] Multiple meaningful commits completed.
 - [x] Render deployment completed and tested.
-- [ ] Demonstration video recorded with face visible.
-- [ ] Final ZIP package prepared.
+- [x] Demonstration video recorded with face visible.
+- [x] Final ZIP package prepared.
 - [x] New repository created for Assignment 2 rather than extending Assignment 1.
 - [x] Portfolio pages implemented as EJS templates rather than HTML files.
 
